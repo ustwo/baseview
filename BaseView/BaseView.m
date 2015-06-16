@@ -27,18 +27,13 @@
     return self;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)coder
+- (void)awakeFromNib
 {
-    self = [super initWithCoder:coder];
+    [super awakeFromNib];
     
-    if (self)
-    {
-        [self setup];
-        [self setupAccessibility];
-        [self setupConstraints];
-    }
-    
-    return self;
+    [self setup];
+    [self setupAccessibility];
+    [self setupConstraints];
 }
 
 
@@ -46,7 +41,7 @@
 
 - (void)setup
 {
-    // Abstract method. Subclasses should override this method to add subviews here
+    // Abstract method.
 }
 
 
@@ -54,7 +49,7 @@
 
 - (void)setupAccessibility
 {
-    // Abstract method. Subclasses should override this method to add add their subview's layout constraints here
+    // Abstract method.
 }
 
 
@@ -62,7 +57,7 @@
 
 - (void)setupConstraints
 {
-    // Abstract method. Subclasses can override this method to add accessibility to their subviews
+    // Abstract method.
 }
 
 @end

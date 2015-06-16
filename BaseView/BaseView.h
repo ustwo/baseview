@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- *  BaseView acts as an abstract base for all custom views
+ *  BaseView acts as a common base for all custom views
  */
 @interface BaseView : UIView
 
@@ -21,7 +21,7 @@
 - (void)setup NS_REQUIRES_SUPER;
 
 /**
- *  Abstract setup method for the view's constraints.
+ *  Setup method for the view's constraints.
  *
  *  Note. Subclasses should override this method to add layout constraints for their subviews here
  */
