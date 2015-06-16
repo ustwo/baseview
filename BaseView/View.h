@@ -10,4 +10,6 @@
 
 @interface View : BaseView
 
+@property (nonatomic, strong) UILabel *titleLabel;
+
 @end

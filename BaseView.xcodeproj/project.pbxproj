@@ -87,18 +87,18 @@
 		AA8DD0361B2F7A57001D260E /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				AA8DD05D1B2F7A7D001D260E /* BaseView.h */,
-				AA8DD05E1B2F7A7D001D260E /* BaseView.m */,
 				AA8DD03B1B2F7A57001D260E /* AppDelegate.h */,
 				AA8DD03C1B2F7A57001D260E /* AppDelegate.m */,
+				AA8DD05D1B2F7A7D001D260E /* BaseView.h */,
+				AA8DD05E1B2F7A7D001D260E /* BaseView.m */,
+				AA8DD0441B2F7A57001D260E /* Images.xcassets */,
+				AA8DD0461B2F7A57001D260E /* LaunchScreen.xib */,
+				AA8DD0411B2F7A57001D260E /* Main.storyboard */,
+				AA8DD0371B2F7A57001D260E /* Supporting Files */,
 				AA8DD0601B2F7D2A001D260E /* View.h */,
 				AA8DD0611B2F7D2A001D260E /* View.m */,
 				AA8DD03E1B2F7A57001D260E /* ViewController.h */,
 				AA8DD03F1B2F7A57001D260E /* ViewController.m */,
-				AA8DD0411B2F7A57001D260E /* Main.storyboard */,
-				AA8DD0441B2F7A57001D260E /* Images.xcassets */,
-				AA8DD0461B2F7A57001D260E /* LaunchScreen.xib */,
-				AA8DD0371B2F7A57001D260E /* Supporting Files */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -430,6 +430,7 @@
 				AA8DD0591B2F7A57001D260E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA8DD05A1B2F7A57001D260E /* Build configuration list for PBXNativeTarget "BaseViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				AA8DD05C1B2F7A57001D260E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
