@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 ustwo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 /**
  *  BaseView acts as a common base for all custom views
